@@ -1,0 +1,68 @@
+{
+  "name": "hal-plus-mcp",
+  "version": "1.0.0",
+  "description": "HAL Plus - Enhanced MCP server with dynamic authentication support. Provides HTTP API capabilities to Large Language Models with OpenAPI/Swagger integration and runtime authentication.",
+  "main": "dist/index.js",
+  "bin": {
+    "hal-plus-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "http",
+    "api",
+    "layer",
+    "typescript",
+    "claude-desktop",
+    "openapi",
+    "swagger",
+    "rest-api",
+    "http-client",
+    "llm",
+    "ai-tools"
+  ],
+  "author": "Dean Ward",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "swagger-parser": "^10.0.3",
+    "yaml": "^2.8.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.1",
+    "@types/swagger-parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onenov/HAL-PLUS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onenov/HAL-PLUS/issues"
+  },
+  "homepage": "https://github.com/onenov/HAL-PLUS"
+}

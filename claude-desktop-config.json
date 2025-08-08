@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hal-plus": {
+      "command": "npx",
+      "args": ["hal-plus-mcp"],
+      "env": { 
+        "HAL_SWAGGER_FILE": "/path/to/your/swagger.json",
+        "HAL_API_BASE_URL": "http://localhost:3000"
+      }
+    }
+  }
+} 
