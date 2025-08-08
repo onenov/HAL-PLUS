@@ -3,8 +3,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://deanward.github.io',
-  base: '/HAL',
+  site: 'https://onenov.github.io',
+  base: '/HAL-PLUS',
   integrations: [tailwind()],
   markdown: {
     shikiConfig: {

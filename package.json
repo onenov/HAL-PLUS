@@ -11,7 +11,10 @@
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
     "prepare": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "docs:dev": "cd docs && npm install && npm run dev",
+    "docs:build": "cd docs && npm install && npm run build",
+    "docs:preview": "cd docs && npm run preview"
   },
   "keywords": [
     "mcp",
